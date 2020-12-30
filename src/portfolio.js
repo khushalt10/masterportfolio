@@ -11,10 +11,10 @@ const greeting = {
   logo_name: "KhushalThepane",
   nickname: "Khushh",
   subTitle:
-    "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable systems to create impact.",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  portfolio_repository: "https://github.com/khushalt10/masterPortfolio",
 };
 
 const socialMediaLinks = [
@@ -29,43 +29,44 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/khushalt10",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+    link: "https://www.linkedin.com/in/khushal-thepane-0784901a4/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "YouTube",
-    link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
+    // },
+  // {
+  //   name: "YouTube",
+  //   link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
+  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  // },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:khushalthepane2000@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/KhushalThepane",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/khushal.thepane.3/",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/_khussshal_/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -74,39 +75,55 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
+      title: "Frontend Developement",
+      fileName: "FrontendImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Developing highly flexible and responsive websites with React",
+        "⚡ Experience of working with other frameworks like Angular and Django",
+        "⚡ Designing highly attractive user interface for web applications",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            backgroundColor: "transparent",
+            color: "red"
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "simple-icons:css3",
+          style: {
+            backgroundColor: "transparent",
+            color: "#e75480"
+          },
+        },
+        {
+          skillName: "React",
+          fontAwesomeClassname: "logos-react",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
           style: {
             backgroundColor: "white",
             color: "#D00000",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Django",
+          fontAwesomeClassname: "logos-django",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "Javascript",
+          fontAwesomeClassname: "logos-javascript",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -115,33 +132,19 @@ const skills = {
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "Backend Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building resposive website Back-end using Express and Node",
+        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "⚡ Experience working on multiple cloud platforms",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -174,64 +177,17 @@ const skills = {
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
-            color: "#FFCA28",
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "AWS Amplify",
+          fontAwesomeClassname: "simple-icons:amazon",
+          style: {
+            color: "#CB3837",
           },
         },
         {
@@ -242,63 +198,42 @@ const skills = {
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "SQL",
+          fontAwesomeClassname: "simple-icons:sql",
           style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
+            color: "#336791",
           },
         },
       ],
     },
     {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
+      title: "Mobile Development",
+      fileName: "ProjectsImageImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Designing highly attractive user interface for Mobile applications using React Native",
+        "⚡ Both Android and IOS Platform Compactible",
+        "⚡ Deployment on Play store and App Store using Expo",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "React-Native",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
-            color: "#FF2BC2",
+            color: "#4285F4",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Ionic",
+          fontAwesomeClassname: "simple-icons:ionic",
           style: {
-            color: "#F24E1E",
+            color: "#FF9900",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Expo",
+          fontAwesomeClassname: "simple-icons:expo",
           style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
+            color: "#0089D6",
           },
         },
       ],
