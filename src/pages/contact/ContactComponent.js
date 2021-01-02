@@ -25,8 +25,8 @@ class Contact extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
-                <img
-                  src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                <img style={{height: 500, width: 400, borderRadius: 200, marginLeft: 100}}
+                  src={'https://amazing-brown-d808cb.netlify.app/images/sea.jpg'}
                   alt=""
                 />
               </div>
@@ -69,9 +69,9 @@ class Contact extends Component {
                 </p>
                 <div className="blogsite-btn-div">
                   <Button
-                    text="Visit My Blogsite"
+                    text="My Blog Profile"
                     newTab={true}
-                    href={blogSection.link}
+                    href={'https://khushalthepane2000.medium.com/'}
                     theme={theme}
                   />
                 </div>
