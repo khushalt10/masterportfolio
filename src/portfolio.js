@@ -244,63 +244,23 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      title: "Vidyalankar Institute Of Technology",
+      subtitle: "B.E. in Computer Engineering",
+      logo_path: "vit2.png",
+      alt_name: "VIT",
+      duration: "2018 - Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I am studying basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "⚡ Apart from this, I have done courses on Web Development, Android Development, Cloud services and Full Stack Development.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://vit.edu.in/",
     },
   ],
 };
@@ -308,112 +268,69 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "Front-End Web Development with React",
+      subtitle: "- The Hong Kong University of Science and Technology",
+      logo_path: "react.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+        "https://coursera.org/share/1ee191ea0a55b24d5e677e2391087be7",
+      alt_name: "React certificate",
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Front-End JavaScript Frameworks: Angular",
+      subtitle: "- The Hong Kong University of Science and Technology",
+      logo_path: "angular.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
+        "https://coursera.org/share/82e52f7d3b65b538683dd75e3552c641",
+      alt_name: "Angular certificate",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Server-side Development with NodeJS, Express and MongoDB",
+      subtitle: "- The Hong Kong University of Science and Technology",
+      logo_path: "node.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
+        "https://coursera.org/share/e2a2036d5e67d8bedc418ef81a7821f7",
+      alt_name: "Node",
       color_code: "#0C9D5899",
     },
     {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
+      title: 
+      "Multiplatform Mobile App Development with Web Technologies: Ionic and Cordova",
+      subtitle: "- The Hong Kong University of Science and Technology",
+      logo_path: "ionic.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
+        "https://coursera.org/share/38a93f810841ba23f7f1584137317d4f",
+      alt_name: "IONIC",
       color_code: "#1F70C199",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      title: 
+      "Front-End Web UI Frameworks and Tools: Bootstrap 4",
+      subtitle: "- The Hong Kong University of Science and Technology",
+      logo_path: "boot.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
+        "https://coursera.org/share/f3cd66c712f5dd1206945c9aa122b95e",
+      alt_name: "Bootstrap",
       color_code: "#D83B0199",
     },
     {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
+      title: "Python and Django Full Stack Web Developer Bootcamp",
+      subtitle: "- Jose Portilla",
+      logo_path: "django.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
+        "https://www.udemy.com/certificate/UC-abf5a20d-bb1b-4d19-8959-d6cd284d1269/",
+      alt_name: "Django",
       color_code: "#1F70C199",
     },
     {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Introduction to HTML Complete Beginner to Expert Course",
+      subtitle: "- Laurence Svenkins",
+      logo_path: "html.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
+        "https://www.udemy.com/certificate/UC-10e7a71a-b3ba-47f3-9a06-80e6dd8b1f68/",
+      alt_name: "HTML",
       color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
     },
   ],
 };
