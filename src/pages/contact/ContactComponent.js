@@ -25,7 +25,7 @@ class Contact extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
-                <img style={{height: 500, width: 400, borderRadius: 200, marginLeft: 100}}
+                <img style={{height: 500, width: 400, borderRadius: 200}}
                   src={'https://amazing-brown-d808cb.netlify.app/images/sea.jpg'}
                   alt=""
                 />
